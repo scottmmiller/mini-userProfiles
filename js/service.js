@@ -22,5 +22,8 @@ app.service('mainService', function() {
 	      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"
 	  }
 	]
+	this.getUsers = function () {
+		return data;
+	};
 
 });
